@@ -1,0 +1,65 @@
+
+
+.caloriform h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #287880;
+    margin: 0 0 25px;
+}
+
+  .caloriform .FormBlocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    padding: 0 80px;
+}
+  .caloriform .form-field {
+    display: inline-block;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.caloriform .form-control {
+    border-radius: 56px;
+    border: 1px solid #bfbfbf;
+    background-color: #fff;
+    color: #287880;
+    padding: 14px 15px;
+    font-size: 16px;
+    height: 54px!important;
+}
+
+.caloriform .btn2 {
+    padding: 14px 20px;
+    width: 250%;
+    font-weight: 600;
+    background: #287880;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    margin-top: 25px;
+}
+
+.calculateBtn {
+  background-color: orange;
+  color: white;
+}
+
+#final_calorie {
+  color: orange;
+  font-weight: bold;
+}
+
+
+.caloriform .close-btn {
+    float: right;
+    width: 32px;
+    height: 32px;
+    /* background: #000; */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}

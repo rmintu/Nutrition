@@ -1,0 +1,236 @@
+.nutrition-rec {
+    padding: 50px 0;
+    position: relative;
+    background: #faf7f0;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.nutrition-rec .secTitle {
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #faf7f0;
+    position: relative;
+    z-index: 3;
+}
+
+.nutrition-rec .work-search {
+    max-width: 555px;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.work-search {
+    float: left;
+}
+
+.nutrition-rec .work-search .container {
+    padding: 0;
+    max-width: 100%;
+}
+
+.nutrition-rec .work-search .search {
+    padding: 15px 26px!important;
+    background: transparent!important;
+    height: auto;
+    color: #000;
+    right: 0;
+}
+
+.work-search .search {
+    position: absolute;
+    width: auto !important;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 0 !important;
+    border-top-right-radius: 7px !important;
+    border-bottom-right-radius: 7px !important;
+}
+
+.nutrition-rec .work-search .input {
+    border-radius: 68px;
+    border: 1px solid #bfbfbf;
+    font-size: 16px;
+    color: #287880;
+    padding: 15px 29px;
+    background: #fff;
+}
+
+form input, form textarea {
+    border: 0;
+    border-radius: 18px;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.nutrition-rec .secTitle .btn.active {
+    background: #fff;
+    color: #fc8329;
+    border: 2px solid #fc8329;
+}
+
+.nutrition-rec .secTitle .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.work-search form#content {
+    position: relative;
+}
+
+
+.oyg_filter .main-left {
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oyg_filter .advanced-filters {
+    width: calc(25% - 12px) !important;
+    margin: 0 6px 10px !important;
+}
+
+
+.advanced-filters.caloy-list.grid-item.auh, .advanced-filters.caloy-list.recipe, .advanced-filters.caloy-list.Main.Ingredient, .advanced-filters.caloy-list.grid-item.fitmas, .advanced-filters.caloy-list.grid-item.se, .advanced-filters.caloy-list.grid-item.fatburn10, .advanced-filters.caloy-list.grid-item.challenge, .advanced-filters.caloy-list.grid-item.\33 0days\&s, .advanced-filters.caloy-list.grid-item.\32 8days, .advanced-filters.caloy-list.Workout, .advanced-filters.caloy-list.NW, .advanced-filters.caloy-list.PW, .advanced-filters.caloy-list.Goal, .advanced-filters.caloy-list.Total, .advanced-filters.caloy-list.Prep, .advanced-filters.caloy-list.Calories, .advanced-filters.caloy-list.Prep.Time, .advanced-filters.caloy-list.Inspired.By, .advanced-filters.caloy-list.Goals, .advanced-filters.caloy-list.Main.Ingredients, .advanced-filters.caloy-list.grid-item.B\&T, .advanced-filters.caloy-list.Cook.Time, .advanced-filters.caloy-list.cook.time {
+    display: none !important;
+}
+.oyg_filter .advanced-filters {
+    width: calc(25% - 12px) !important;
+    margin: 0 6px 10px !important;
+}
+.oyg_filter .advanced-filters {
+    position: relative;
+    padding: 5px 7px;
+    border-radius: 10px;
+    border: 1px solid #fc8329;
+    cursor: pointer;
+}
+
+ .c-food-list {
+    position: relative;
+}
+
+img.thumbs{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 100%;
+}
+
+.recepie_block {
+    padding: 20px;
+}
+
+.search-results {
+    background: #faf7f0;
+    text-align: left;
+    width: 100%;
+    max-height: 400px;
+    overflow-y: scroll;
+    box-shadow: 0px 3px 26px 0px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    z-index: 5;
+}
+
+.search-results .item-search {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.search-results .thumbnail {
+    margin-right: 15px;
+    float: left;
+}
+
+.search-results .thumbnail img {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search-results .title {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+
+/* .recipe_block {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px #00000012;
+    height: 100%;
+} */
+/*
+.nutrition-rec .collection-page {
+    padding: 0;
+    max-width: 100%;
+}
+
+.res_img {
+    padding-top: 100%;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.recipe_block {
+    border-radius: 8px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 3px 6px #00000012;
+    height: 100%;
+}
+
+.nutrition-rec .col-md-2 {
+    max-width: 20%;
+    flex: 0 0 auto;
+    padding: 0 0.5rem;
+    margin: 0 0 1rem;
+}
+
+.nutrition-rec .EndlessScroll .row {
+    padding-bottom: 0;
+}
+
+.nutrition-rec .row {
+    margin: 0 -0.5rem;
+}
+
+.EndlessScroll .row {
+    position: relative;
+}
+
+.recipe_block .bottom {
+    position: relative;
+    padding: 12px 35px 12px 12px;
+    font-size: 14px;
+    min-height: 105px;
+}
+
+.nutrition-rec .collection-page {
+    padding: 0;
+    max-width: 100%;
+}
+
+.c-food-list {
+    position: relative;
+}
+
+.recipe_block .bottom h4 {
+    font-size: 14px;
+    min-height: 34px;
+} */

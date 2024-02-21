@@ -1,0 +1,40 @@
+.faq-section {
+    margin-top: 30px;
+}
+
+.faq-items {
+    margin-top: 50px !important;
+    width: 50%;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.home_faq .accordion-group {
+    margin: 20px 0;
+    box-shadow: 0px 2px 4px #00000033;
+    background: #fafafa;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.accordion-toggle {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    background: #fafafa;
+    text-align: left;
+}
+
+.accordion-body {
+    padding: 10px 50px;
+}
+
+.sign {
+    margin-left: 10px;
+}
